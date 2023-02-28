@@ -13,12 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:basic",
       "version": "1.9.0",
-      "toolsId": "5579577c-7097-493c-81c4-3402b471f1c6",
-      "dataSources": {
-        "StudentJSONData": {
-          "uri": "model/student.json",
-          "type": "JSON"
-        } }
+      "toolsId": "5579577c-7097-493c-81c4-3402b471f1c6"
      
     }
   },
@@ -72,8 +67,7 @@
 
       },
       "Student": {
-        "type": "sap.ui.model.json.JSONModel",
-        "dataSource":"StudentJSONData"
+        "type": "sap.ui.model.json.JSONModel"
        }
     },
     "resources": {
